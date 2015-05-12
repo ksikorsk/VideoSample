@@ -13,6 +13,12 @@
 		19E675791B029FC000D41FD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E675781B029FC000D41FD7 /* Images.xcassets */; };
 		19E6757C1B029FC000D41FD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19E6757A1B029FC000D41FD7 /* LaunchScreen.xib */; };
 		19E675881B029FC000D41FD7 /* VideoSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E675871B029FC000D41FD7 /* VideoSampleTests.swift */; };
+		19E675921B02A25400D41FD7 /* VideoSample.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19E675911B02A25400D41FD7 /* VideoSample.bundle */; };
+		19E675941B02A2A400D41FD7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 19E675931B02A2A400D41FD7 /* .gitignore */; };
+		19E675961B02B15A00D41FD7 /* AVAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E675951B02B15A00D41FD7 /* AVAsset.swift */; };
+		19E675A21B02BF6000D41FD7 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E6759C1B02BF6000D41FD7 /* SVIndefiniteAnimatedView.m */; };
+		19E675A31B02BF6000D41FD7 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19E6759D1B02BF6000D41FD7 /* SVProgressHUD.bundle */; };
+		19E675A41B02BF6000D41FD7 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E6759F1B02BF6000D41FD7 /* SVProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,15 @@
 		19E675811B029FC000D41FD7 /* VideoSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E675861B029FC000D41FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19E675871B029FC000D41FD7 /* VideoSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSampleTests.swift; sourceTree = "<group>"; };
+		19E675911B02A25400D41FD7 /* VideoSample.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VideoSample.bundle; sourceTree = "<group>"; };
+		19E675931B02A2A400D41FD7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		19E675951B02B15A00D41FD7 /* AVAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVAsset.swift; sourceTree = "<group>"; };
+		19E6759B1B02BF6000D41FD7 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		19E6759C1B02BF6000D41FD7 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		19E6759D1B02BF6000D41FD7 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		19E6759E1B02BF6000D41FD7 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		19E6759F1B02BF6000D41FD7 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		19E675A51B02BF8900D41FD7 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +74,10 @@
 		19E675631B029FC000D41FD7 = {
 			isa = PBXGroup;
 			children = (
+				19E675931B02A2A400D41FD7 /* .gitignore */,
+				19E6756D1B029FC000D41FD7 /* Products */,
 				19E6756E1B029FC000D41FD7 /* VideoSample */,
 				19E675841B029FC000D41FD7 /* VideoSampleTests */,
-				19E6756D1B029FC000D41FD7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +93,16 @@
 		19E6756E1B029FC000D41FD7 /* VideoSample */ = {
 			isa = PBXGroup;
 			children = (
+				19E675A51B02BF8900D41FD7 /* Bridging-Header.h */,
 				19E675711B029FC000D41FD7 /* AppDelegate.swift */,
-				19E675731B029FC000D41FD7 /* ViewController.swift */,
-				19E675751B029FC000D41FD7 /* Main.storyboard */,
+				19E675951B02B15A00D41FD7 /* AVAsset.swift */,
 				19E675781B029FC000D41FD7 /* Images.xcassets */,
 				19E6757A1B029FC000D41FD7 /* LaunchScreen.xib */,
+				19E675751B029FC000D41FD7 /* Main.storyboard */,
 				19E6756F1B029FC000D41FD7 /* Supporting Files */,
+				19E675971B02BF6000D41FD7 /* Vendors */,
+				19E675911B02A25400D41FD7 /* VideoSample.bundle */,
+				19E675731B029FC000D41FD7 /* ViewController.swift */,
 			);
 			path = VideoSample;
 			sourceTree = "<group>";
@@ -110,6 +130,26 @@
 				19E675861B029FC000D41FD7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19E675971B02BF6000D41FD7 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				19E675981B02BF6000D41FD7 /* SVProgressHUD */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		19E675981B02BF6000D41FD7 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				19E6759B1B02BF6000D41FD7 /* SVIndefiniteAnimatedView.h */,
+				19E6759C1B02BF6000D41FD7 /* SVIndefiniteAnimatedView.m */,
+				19E6759D1B02BF6000D41FD7 /* SVProgressHUD.bundle */,
+				19E6759E1B02BF6000D41FD7 /* SVProgressHUD.h */,
+				19E6759F1B02BF6000D41FD7 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +232,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E675A31B02BF6000D41FD7 /* SVProgressHUD.bundle in Resources */,
+				19E675941B02A2A400D41FD7 /* .gitignore in Resources */,
 				19E675771B029FC000D41FD7 /* Main.storyboard in Resources */,
 				19E6757C1B029FC000D41FD7 /* LaunchScreen.xib in Resources */,
 				19E675791B029FC000D41FD7 /* Images.xcassets in Resources */,
+				19E675921B02A25400D41FD7 /* VideoSample.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +255,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E675A21B02BF6000D41FD7 /* SVIndefiniteAnimatedView.m in Sources */,
 				19E675741B029FC000D41FD7 /* ViewController.swift in Sources */,
+				19E675961B02B15A00D41FD7 /* AVAsset.swift in Sources */,
 				19E675721B029FC000D41FD7 /* AppDelegate.swift in Sources */,
+				19E675A41B02BF6000D41FD7 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -330,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,6 +391,7 @@
 				INFOPLIST_FILE = VideoSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoSample/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -355,6 +402,7 @@
 				INFOPLIST_FILE = VideoSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoSample/Bridging-Header.h";
 			};
 			name = Release;
 		};
